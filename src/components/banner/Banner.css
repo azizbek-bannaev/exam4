@@ -1,0 +1,46 @@
+.banner img
+{
+    
+    height: 600px;
+    object-fit: cover;
+}
+@media screen and (max-width: 1100px) {
+    .banner img{
+        height: 500px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .banner img{
+      
+        height: 450px;
+    }
+}
+@media screen and (max-width: 900px)
+{
+    .banner img{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 700px){
+    .banner img{
+        height: 350px;
+    }
+}
+@media screen and (max-width: 580px)
+{
+    .banner img{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 480px)
+{
+    .banner img{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    .banner img{
+    height: 200px;
+    }
+}

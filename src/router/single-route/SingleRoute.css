@@ -1,0 +1,6 @@
+.single__route
+{
+    padding: 50px 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

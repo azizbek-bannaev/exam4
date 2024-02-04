@@ -1,0 +1,26 @@
+.footer
+{
+    width: auto;
+    height: 200px;
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 2;
+}
+.footer__logo
+{
+    width: 300px;
+    height: 60px;
+    font-size: 24px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__logo a{
+    color: white;
+}
+.footer__logo a:hover{
+    color: #E21836;
+
+}

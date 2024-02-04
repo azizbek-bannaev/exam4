@@ -1,0 +1,36 @@
+.wrapper
+{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px   ;
+    overflow: auto;
+}
+.card
+{
+    text-align: center;
+}
+.card img
+{
+    width: 260px;
+    height: 310px;
+    border: 1px solid gray;
+}
+.card button
+{
+    width: 180px;
+    height: 35px;
+}
+
+@media screen and (max-width: 1405px){
+    .wrapper::-webkit-scrollbar {
+        height: 10px;
+    }
+    .wrapper::-webkit-scrollbar-thumb {
+        background: gray;
+        border-radius: 20px;
+        
+    }
+}
